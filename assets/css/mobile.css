@@ -41,7 +41,7 @@ body{
 {
 	padding :10px;
 	padding-top: 0;
-	border: 1px solid #242C39;
+	border: 1px solid #fbfbfb;
 	border-radius: 30px;
 	/* align-items: center; */
 	height: 40px;
@@ -259,5 +259,5 @@ body{
 ._mcard ._footer span
 {
 	padding-right: 4px;
-	color:#222;
+	color:#fff;
 }
