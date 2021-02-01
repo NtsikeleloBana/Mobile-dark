@@ -8,7 +8,7 @@ body
 	bottom: 0;
 	width:100%;
 	box-shadow : 0 0 3px rgba(0,0,0,0.2);
-	
+	background:#242C39; 
 	display: flex;
 	overflow-x:auto;
 }
@@ -34,13 +34,13 @@ body
 
 .nav--link:hover
 {
-	background:#eeeeee;
+	color:#fff;
 }
 
 .nav--link-active
 {
 	border-top:1px solid #fd5912;
-	color:#333;
+	color:#fd5211;
 }
 
 .nav--icon{
