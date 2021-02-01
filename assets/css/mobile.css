@@ -17,9 +17,9 @@
 
 body{
 	font-family : 'Roboto',sans-serif;
-	/* background:#242C39; */
-	 color:#222;
-	background:#fbfbfb;
+	 background:#242C39; 
+	 color:#fff !important;
+/* 	background:#fbfbfb; */
 	/* overflow-x: hidden; */
 
 }
