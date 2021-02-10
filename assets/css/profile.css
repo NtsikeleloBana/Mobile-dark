@@ -4,6 +4,7 @@
 		--bg-light :#fff;
 		--bg-dark :#242c39;
 		--text-lcolor:#222;
+		--theme-orange:#fd5211;
 		--text-dcolor:#fff;
 		--text-high:#50ACE4;
 		/*=======font=========*/
@@ -51,7 +52,7 @@ body{
 	width:70px;
 	height:70px;
 	border-radius:50%;
-	transform: translate(20%,-30%);
+	transform: translate(20%,-29%);
 
 }
 .ProfileDet .profileimg::before
@@ -68,7 +69,7 @@ body{
 }
 .ProfileDet .ProfileDetedit
 {
-	border:2px solid var(--text-high);;
+	border:2px solid var(--theme-orange);;
 	border-radius:20px;
 	width:90px;
 	padding-left:6px;
