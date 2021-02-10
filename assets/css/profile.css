@@ -23,7 +23,10 @@ body{
 	 color:#fff !important;
 
 }
-
+a {
+	text-decoration:none;
+	color:var(--text-high);
+}
 ._profile
 {
 	height:80vh;
