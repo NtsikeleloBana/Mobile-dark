@@ -65,7 +65,7 @@ body{
 	position: absolute;
 	left:50%;
 	top: 50%;
-	transform: translate(-34%,-71%);
+	transform: translate(-34%,-73%);
 }
 .ProfileDet .ProfileDetedit
 {
@@ -94,6 +94,8 @@ body{
 .profname img
 {
 	margin-top:4px;
+	height:10px;
+	width:10px;
 }
 .profnames
 {
@@ -138,7 +140,7 @@ body{
 {
 	border-bottom: 2px solid #454545;
 	padding:20px 30px 10px 30px;
-	color:#454545;font-size:13px;
+	color:#eee;font-size:13px;
 	display:flex;
 	justify-content:space-between;
 	
