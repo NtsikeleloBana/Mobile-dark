@@ -1,0 +1,134 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+:root{
+	/*======= colors ===========*/
+		--bg-light :#fff;
+		--bg-dark :#242c39;
+		--text-lcolor:#222;
+		--text-dcolor:#fff;
+		/*=======font=========*/
+		
+}
+*{
+	margin:0;
+	padding :0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family : 'Roboto',sans-serif;
+	 background:#242C39; 
+	 color:#fff !important;
+}
+
+
+._post
+{
+	height : calc (100% - 55px);
+	width:100%;
+}
+._post ._Postersinfo
+{
+	display :flex;	
+	margin: 20px;
+}
+._post ._PostinfoPic
+{
+	position: relative;
+	background-position: 50%;
+	background-size: cover;
+	height: 50px;
+	width:50px;
+	border-radius: 50%;
+	margin-right:20px;
+}
+._post ._PostinfoPic img
+{
+	position: relative;
+	background-position: 50%;
+	background-size: cover;
+	height: 50px;
+	width:50px;
+	border-radius: 50%;
+}
+._post ._PostinfoPic::before
+{
+	content: '';
+	display: inline-block;
+	border: 3px solid #fd5211;
+	border-radius: 50%;
+	padding: 24px;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+._post ._Postersname
+{
+	display :flex;
+	flex-direction:column;
+
+}
+._Postersnamever
+{
+		display :flex;
+}
+._Postersnamever img
+{
+		position: relative;
+	background-position: 50%;
+	background-size: cover;
+	height: 10px;
+	width:10px;
+	border-radius: 50%;
+	margin-top:2px;
+}
+._post ._Postersname p
+{
+	display :flex;
+	margin-right:5px;
+	margin-top:9px;
+	flex-direction:column;
+		font-size : 12px;
+
+}	
+._post ._Postersname span
+{
+	margin-top:5px;
+	font-size : 8px;
+
+}		
+._post ._Posttextarea
+{
+	height:300px;
+	width:100%;
+}
+._post .tagarea
+{
+		height:300px;
+			width:100%;
+			resize:none;
+			 background:#242C39; 
+	 color:#fff !important;
+	 outline:none;
+}
+	
+._post ._Posttagtextarea
+{
+	height:50px;
+		width:100%;
+}
+._post .tagtext
+{
+	height:50px;		color:#fff !important; background:#242C39; 
+	 outline:none;
+	width:100%;	
+}
+
+._post ._Postaddmedia
+{
+	display :flex;
+	align-items : centre;
+	justify-content:space-between;
+	height:50px;
+}

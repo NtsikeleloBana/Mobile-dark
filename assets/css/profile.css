@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+:root{
+	/*======= colors ===========*/
+		--bg-light :#fff;
+		--bg-dark :#242c39;
+		--text-lcolor:#222;
+		--text-dcolor:#fff;
+		/*=======font=========*/
+		
+}
+*{
+	margin:0;
+	padding :0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family : 'Roboto',sans-serif;
+	 background:#242C39; 
+	 color:#fff !important;
+
+}
+
+._profile
+{
+	height:80vh;
+	border-bottom:1px solid #333;
+}
+.ProfileCover
+{
+	height:150px;
+	width:100%;
+}
+.ProfileCover img
+{
+	height:150px;
+	width:100%;
+}
+.ProfileDet
+{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+	
+}
+.ProfileDet .profileimg
+{
+	position:relative;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	transform: translate(20%,-50%);
+
+}
+.ProfileDet .profileimg::before
+{
+	content: '';
+	display: inline-block;
+	border: 3px solid #fd5211;
+	border-radius: 50%;
+	padding: 38px;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	transform: translate(-34%,-90%);
+}
+.ProfileDet .ProfileDetedit
+{
+	border:2px solid #fd5211;
+	border-radius:20px;
+	width:90px;
+	padding-left:6px;
+	padding-top:2px;
+	height:30px;
+}
+
+.Profilename 
+{
+	height:70px;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	margin-top:10px;
+	transform: translatex('50%');
+	padding-left:30px;
+}
+.profname
+{
+	display:flex;
+}
+.profname img
+{
+	margin-top:5px;
+}
+.profnames
+{
+	margin-right:10px;
+	font-size:20px;
+}
+.proftype
+{
+	margin-top:5px;
+	font-size:12px;
+	color:#454545;
+}
+.Profilebio
+{
+	
+	width:100%;
+	margin:2px;
+	padding-left:30px;
+	font-size:14px;
+	width:100%;
+}
+.Profilattr
+{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	margin:2px;
+	color:#454545;font-size:12px;
+	padding:20px 30px 10px 30px;
+}
+.Profilattrs
+{
+	display:flex;
+}
+.profatname
+{
+	padding-left:3px;
+	color:#454545;
+}
+.profilestats
+{
+	border-bottom: 2px solid #454545;
+	padding:20px 30px 10px 30px;
+	color:#454545;font-size:13px;
+	display:flex;
+	justify-content:space-between;
+	
+}
