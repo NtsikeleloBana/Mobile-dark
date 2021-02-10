@@ -5,6 +5,7 @@
 		--bg-dark :#242c39;
 		--text-lcolor:#222;
 		--text-dcolor:#fff;
+		--text-high:#50ACE4;
 		/*=======font=========*/
 		
 }
@@ -50,7 +51,7 @@ body{
 	width:70px;
 	height:70px;
 	border-radius:50%;
-	transform: translate(20%,-50%);
+	transform: translate(20%,-30%);
 
 }
 .ProfileDet .profileimg::before
@@ -63,11 +64,11 @@ body{
 	position: absolute;
 	left:50%;
 	top: 50%;
-	transform: translate(-34%,-90%);
+	transform: translate(-34%,-71%);
 }
 .ProfileDet .ProfileDetedit
 {
-	border:2px solid #fd5211;
+	border:2px solid var(--text-high);;
 	border-radius:20px;
 	width:90px;
 	padding-left:6px;
@@ -91,7 +92,7 @@ body{
 }
 .profname img
 {
-	margin-top:5px;
+	margin-top:4px;
 }
 .profnames
 {
@@ -102,7 +103,7 @@ body{
 {
 	margin-top:5px;
 	font-size:12px;
-	color:#454545;
+	color:var(--text-high);
 }
 .Profilebio
 {
@@ -119,7 +120,8 @@ body{
 	justify-content:space-between;
 	width:100%;
 	margin:2px;
-	color:#454545;font-size:12px;
+	color:var(--text-high);
+	font-size:12px;
 	padding:20px 30px 10px 30px;
 }
 .Profilattrs
@@ -129,7 +131,7 @@ body{
 .profatname
 {
 	padding-left:3px;
-	color:#454545;
+	color:var(--text-high);
 }
 .profilestats
 {
