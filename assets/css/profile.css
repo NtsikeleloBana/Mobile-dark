@@ -87,6 +87,7 @@ a {
 	display:flex;
 	flex-direction:column;
 	margin-top:7px;
+	margin-bottom:7px;
 	transform: translatex('50%');
 	padding-left:30px;color:#eee;
 }
