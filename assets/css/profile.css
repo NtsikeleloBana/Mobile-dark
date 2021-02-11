@@ -128,7 +128,7 @@ a {
 	margin:2px;
 	color:var(--text-high);
 	font-size:12px;
-	padding:20px 30px 10px 30px;
+	padding:12px 30px 10px 30px;
 }
 .Profilattrs
 {
@@ -142,7 +142,7 @@ a {
 .profilestats
 {
 	border-bottom: 2px solid #454545;
-	padding:20px 30px 10px 30px;
+	padding:12px 30px 10px 30px;
 	color:#eee;font-size:13px;
 	display:flex;
 	justify-content:space-between;
