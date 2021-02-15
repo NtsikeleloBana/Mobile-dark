@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+body
+{
+    font-family: 'Roboto', sans-serif;;
+}
 .footer
 {
     display:flex;justify-content: space-between;
     padding: 10px;
     align-items: center;
+}
+.bal
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.balamount
+{
+    display: flex;
+    align-items: center;
+}
+.balimg
+{
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin:0 2px 0 2px;
+}
+.centreimg, .centreimg img
+{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 35%;
+    border-radius: 10px;
 }
 .arrow i
 {
@@ -35,7 +67,9 @@
     display: flex;
     align-items: center;
     padding: 10px; 
-    border-bottom:2px solid #333;
+    border-bottom:2px solid #b47c03;;
+    background-color: #b47c03;
+    
 }
 
 .nav-topb .texttop
@@ -72,14 +106,22 @@
 .textd
 {
     padding: 10px;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.textd p i
+{
+    font-size: 20px;
+    margin: 5px 5px 0 0;
 }
 .box
 {
     height: 50px;
     width: 50px;
-    background-color: #000838;
+    /* background-color: #000838; */
+    background-color: #fff;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -95,7 +137,7 @@
 {
     height: 50px;
     width: 170px;
-    background-color: #000838;
+    background-color: #fff;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -103,4 +145,8 @@
 {
     height: calc(85vh/3);
     /* border-bottom:2px solid #333; */
+}
+.account
+{
+    background-color: #b47c03;
 }
