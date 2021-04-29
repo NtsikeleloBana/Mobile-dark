@@ -136,12 +136,16 @@ a {
   color: var(--text-high);
 }
 .Profilebio {
-  width: 100%;
+  width: 80%;
   margin: 2px;
+  margin-top: 10px;
   padding-left: 30px;
   font-size: 14px;
   width: 100%;
   color: #eee;
+}
+.Profilebio p {
+  width: 93%;
 }
 .Profilattr {
   display: flex;
