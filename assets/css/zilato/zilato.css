@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 body {
   font-family: "Quicksand", sans-serif;
+  height: 50vh;
+
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, */
   /* Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
 }
@@ -136,7 +138,7 @@ body {
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
   height: 70px;
-  width: 190px;
+  width: 170px;
   background-color: #fff;
   border-radius: 10px;
   margin-top: 10px;
@@ -301,12 +303,12 @@ body {
 }
 
 .card__number::before {
-  content: "5032";
-  transform: translate(15px, 22px);
+  content: "30";
+  transform: translate(10px, 22px);
 }
 
 .card__number::after {
-  content: "Valid thru";
+  content: "Valid Student";
   width: 80px;
   transform: translate(-215px, 22px);
 }
