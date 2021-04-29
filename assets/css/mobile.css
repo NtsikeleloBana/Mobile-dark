@@ -41,9 +41,9 @@ body{
 {
 	padding :10px;
 	padding-top: 0;
-	border: 1px solid #fbfbfb;
+	border: 2px solid #fbfbfb;
 	border-radius: 30px;
-	/* align-items: center; */
+	align-items: center;
 	height: 40px;
 	/* padding-right: 10px; */
 }
@@ -61,6 +61,7 @@ body{
 {
 	height: 40px;
 	width: 40px;
+	font-size: 20px;
 	color:#242c39;color: #fd5211;
 	/* display:flex;
 	justify-content: center;
