@@ -395,7 +395,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #ce0e1d;
+  background-color: #b47c03;
 }
 
 .card__flag--yellow {
@@ -404,15 +404,15 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #e39833;
+  background-color: #000838;
 }
 
 .card__flag--yellow::after {
-  content: "MasterCard";
+  content: "ZltoCard";
   position: absolute;
   font-size: 0.7em;
   top: 50%;
-  transform: translate(-25px, -7px);
+  transform: translate(-17px, -7px);
   font-family: var(--masterFont);
   font-style: italic;
   font-weight: 800;
